@@ -3,7 +3,7 @@ const sequelize = require('../config/dbConfig');
 
 class DiscountModel extends Model {}
 
-DiscountTypes.init({
+DiscountModel.init({
     id: {
         type: DataTypes.INTEGER, 
         autoIncrement: true, 
