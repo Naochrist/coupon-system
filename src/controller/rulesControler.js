@@ -3,10 +3,7 @@
 
 
 module.exports = {
-    /**
-     * * controller to create a new rule for a coupon
-     * @param {Request} req
-     */
+   
     newRuleForCoupon: async req => {
         try {
             if (Object.values(req.body).includes('') || Object.values(req.body).includes(' ') || !Object.keys(req.body).length) {
